@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Fed English</title>
+	<title id="title"></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,11 +26,12 @@
 </head>
 
 <body>
+	<!-- Header  -->
 	<div class="bg-top navbar-light">
 		<div class="container">
 			<div class="row no-gutters d-flex align-items-center align-items-stretch">
 				<div class="col-md-4 d-flex align-items-center py-4">
-					<a class="navbar-brand" href="index.html">FED. <span>English</span></a>
+					<a class="navbar-brand" href="index.html" id="header_brand"></a>
 				</div>
 				<div class="col-lg-8 d-block">
 					<div class="row d-flex">
@@ -39,7 +40,7 @@
 									class="icon-paper-plane"></span></div>
 							<div class="text">
 								<span>Email</span>
-								<span>fedenglishcenter@gmail.com</span>
+								<span id="header_email"></span>
 							</div>
 						</div>
 						<div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
@@ -47,12 +48,12 @@
 									class="icon-phone2"></span></div>
 							<div class="text">
 								<span>Call</span>
-								<span>+84 981 276 896</span>
+								<span id="header_phone"></span>
 							</div>
 						</div>
 						<div class="col-md topper d-flex align-items-center justify-content-end">
 							<p class="mb-0">
-								<a href="#"
+								<a id="header_register" href="#"
 									class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
 									<span>Đăng ký</span>
 								</a>
@@ -78,11 +79,11 @@
 			</form>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">Về chúng tôi</a></li>
-					<li class="nav-item"><a href="courses.html" class="nav-link">Chương trình học</a></li>
-					<li class="nav-item"><a href="teacher.html" class="nav-link">Tuyển dụng</a></li>
-					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+					<li class="nav-item active"><a href="index.html" class="nav-link pl-0" id="navbar_home">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link" id="navbar_about">Về chúng tôi</a></li>
+					<li class="nav-item"><a href="courses.html" class="nav-link" id="navbar_courses">Chương trình học</a></li>
+					<li class="nav-item"><a href="teacher.html" class="nav-link" id="navbar_teacher">Tuyển dụng</a></li>
+					<li class="nav-item"><a href="blog.html" class="nav-link" id="navbar_blog">Blog</a></li>
 					<!-- <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> -->
 				</ul>
 			</div>
@@ -98,10 +99,9 @@
 				<div class="row no-gutters slider-text align-items-center justify-content-start"
 					data-scrollax-parent="true">
 					<div class="col-md-6 ftco-animate">
-						<h1 class="mb-4">FED ENGLISH</h1>
-						<p>Study English with happiness.
-						</p>
-						<p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></p>
+						<h1 class="mb-4" id="slogan_title_1"></h1>
+						<p id="slogan_content_1"></p>
+						<p><a href="#" class="btn btn-primary px-4 py-3 mt-3" id="slogan_link_1">Contact Us</a></p>
 					</div>
 				</div>
 			</div>
@@ -113,11 +113,9 @@
 				<div class="row no-gutters slider-text align-items-center justify-content-start"
 					data-scrollax-parent="true">
 					<div class="col-md-6 ftco-animate">
-						<h1 class="mb-4">FED ENGLISH</h1>
-						<p>We don't sell an English course
-							<br>We sell a package of happiness.
-						</p>
-						<p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Contact Us</a></p>
+						<h1 class="mb-4" id="slogan_title_2"></h1>
+						<p id="slogan_content_2"></p>
+						<p><a href="#" class="btn btn-primary px-4 py-3 mt-3" id="slogan_link_2">Contact Us</a></p>
 					</div>
 				</div>
 			</div>
@@ -770,7 +768,7 @@
 	</section>
 
 	<!-- Ảnh -->
-	<section class="ftco-gallery">
+	<!-- <section class="ftco-gallery">
 		<div class="container-wrap">
 			<div class="row no-gutters">
 				<div class="col-md-3 ftco-animate">
@@ -807,7 +805,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- Footer  -->
 	<footer class="ftco-footer ftco-bg-dark ftco-section">
@@ -923,6 +921,8 @@
 		</svg></div>
 
 
+	<script src="js/data.js"></script>
+	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
