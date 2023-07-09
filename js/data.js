@@ -8,8 +8,8 @@ const header_register = document.getElementById("header_register");
 const navbar_home = document.getElementById("navbar_home");
 const navbar_about = document.getElementById("navbar_about");
 const navbar_courses = document.getElementById("navbar_courses");
-const navbar_teacher = document.getElementById("navbar_teacher");
-const navbar_blog = document.getElementById("navbar_blog");
+// const navbar_teacher = document.getElementById("navbar_teacher");
+// const navbar_blog = document.getElementById("navbar_blog");
 
 const slogan_title_1 = document.getElementById("slogan_title_1");
 const slogan_content_1 = document.getElementById("slogan_content_1");
@@ -34,8 +34,8 @@ header_register.href = "https://www.facebook.com/Learningenglishwithfed";
 navbar_home.innerHTML = "Home";
 navbar_about.innerHTML = "Về chúng tôi";
 navbar_courses.innerHTML = "Chương trình học";
-navbar_teacher.innerHTML = "Tuyển dụng";
-navbar_blog.innerHTML = "Blog";
+// navbar_teacher.innerHTML = "Tuyển dụng";
+// navbar_blog.innerHTML = "Blog";
 
 // Slogan 
 slogan_title_1.innerHTML = "FED ENGLISH";
