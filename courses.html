@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Fox University - Free Bootstrap 4 Template by Colorlib</title>
+    <title id="title"></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -27,7 +27,7 @@
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
-    				<a class="navbar-brand" href="index.html">Fox. <span>University</span></a>
+    				<a class="navbar-brand" href="index.html" id="header_brand"></a>
     			</div>
 	    		<div class="col-lg-8 d-block">
 		    		<div class="row d-flex">
@@ -70,12 +70,12 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item active"><a href="courses.html" class="nav-link">Courses</a></li>
-	        	<li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="index.html" class="nav-link pl-0" id="navbar_home">Home</a></li>
+	        	<li class="nav-item"><a href="about.html" class="nav-link" id="navbar_about">Về chúng tôi</a></li>
+	        	<li class="nav-item active"><a href="courses.html" class="nav-link" id="navbar_courses">Chương trình học</a></li>
+	        	<li class="nav-item"><a href="teacher.html" class="nav-link" id="navbar_teacher">Tuyển dụng</a></li>
+	        	<li class="nav-item"><a href="blog.html" class="nav-link" id="navbar_blog">Blog</a></li>
+	          <!-- <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> -->
 	        </ul>
 	      </div>
 	    </div>
@@ -297,6 +297,8 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+
+  <script src="js/data.js"></script>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>

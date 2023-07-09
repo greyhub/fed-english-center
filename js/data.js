@@ -19,6 +19,9 @@ const slogan_title_2 = document.getElementById("slogan_title_2");
 const slogan_content_2 = document.getElementById("slogan_content_2");
 const slogan_link_2 = document.getElementById("slogan_link_2");
 
+const slogan_bg_1 = document.getElementById("slogan_bg_1");
+const slogan_bg_2 = document.getElementById("slogan_bg_2");
+
 title.innerHTML = "Fed English";
 
 // Header 
@@ -37,8 +40,14 @@ navbar_blog.innerHTML = "Blog";
 // Slogan 
 slogan_title_1.innerHTML = "FED ENGLISH";
 slogan_content_1.innerHTML = "Study English with happiness.";
-slogan_link_1.href = "#";
+slogan_link_1.href = "https://www.facebook.com/Learningenglishwithfed";
 
 slogan_title_2.innerHTML = "FED ENGLISH";
 slogan_content_2.innerHTML = "We don't sell an English course<br>We sell a package of happiness.";
-slogan_link_2.href = "#";
+slogan_link_2.href = "https://www.facebook.com/Learningenglishwithfed";
+
+const slogan_bg_link_1 = "images/GIOI-THIEU-1b.jpeg";
+const slogan_bg_link_2 = "images/GIOI-THIEU-2a.jpeg";
+
+slogan_bg_1.style = "background-image:url("+ slogan_bg_link_1 +");";
+slogan_bg_2.style = "background-image:url("+ slogan_bg_link_2 +");";
