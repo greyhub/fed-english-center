@@ -9120,7 +9120,7 @@ textarea.form-control {
       transition: all 0.3s ease; }
       .ftco-footer .subscribe-form .form-group .submit:hover {
         cursor: pointer;
-        color: #FF3131;
+        color: #FF3131 !important;
         background: #fff !important; }
   .ftco-footer .subscribe-form .icon {
     position: absolute;
