@@ -28,7 +28,7 @@ title.innerHTML = "Fed English";
 header_brand.innerHTML = "FED. <span>English</span>";
 header_email.innerHTML = "fedenglishcenter@gmail.com";
 header_phone.innerHTML = "+84 981 276 896";
-header_register.href = "https://www.facebook.com/Learningenglishwithfed";
+header_register.href = "https://m.me/Learningenglishwithfed";
 
 // Navbar 
 navbar_home.innerHTML = "Home";
