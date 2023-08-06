@@ -8,7 +8,7 @@ const header_register = document.getElementById("header_register");
 const navbar_home = document.getElementById("navbar_home");
 const navbar_about = document.getElementById("navbar_about");
 const navbar_courses = document.getElementById("navbar_courses");
-// const navbar_teacher = document.getElementById("navbar_teacher");
+const navbar_teacher = document.getElementById("navbar_teacher");
 // const navbar_blog = document.getElementById("navbar_blog");
 
 const slogan_title_1 = document.getElementById("slogan_title_1");
@@ -34,16 +34,18 @@ header_register.href = "https://m.me/Learningenglishwithfed";
 navbar_home.innerHTML = "Home";
 navbar_about.innerHTML = "Về chúng tôi";
 navbar_courses.innerHTML = "Chương trình học";
-// navbar_teacher.innerHTML = "Tuyển dụng";
+navbar_teacher.innerHTML = "Tuyển dụng";
 // navbar_blog.innerHTML = "Blog";
 
 // Slogan 
 slogan_title_1.innerHTML = "FED ENGLISH";
 slogan_content_1.innerHTML = "Study English with happiness.";
+slogan_link_1.innerHTML = "Contact us";
 slogan_link_1.href = "https://www.facebook.com/Learningenglishwithfed";
 
 slogan_title_2.innerHTML = "FED ENGLISH";
 slogan_content_2.innerHTML = "We don't sell an English course<br>We sell a package of happiness.";
+slogan_link_2.innerHTML = "Contact us";
 slogan_link_2.href = "https://www.facebook.com/Learningenglishwithfed";
 
 const slogan_bg_link_1 = "images/GIOI-THIEU-1b.jpeg";
